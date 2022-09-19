@@ -11,6 +11,7 @@ body {
 
 #div1 {
     display: flex;
+    justify-content: center;
     width: 100%;
     min-height: 70vh;
     align-items: center;
@@ -20,18 +21,15 @@ body {
 
 #div2 {
     display: flex;
-    width: 100%;
-    min-height: 20vh;
-    background: gray;
     justify-content: center;
+    width: 100%;
 }
 
 #div2 button {
     padding: 15px;
     border-radius: 15px;
     border: 0;
-    min-width: 80px;
-    font-size: 80px;
+    font-size: 50px;
 }
 
 #div2 button:nth-child(n+2) {
