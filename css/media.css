@@ -22,5 +22,7 @@
     #div1 {
         font-size: 5.5rem;
     }
-
+    #div2 button{
+        font-size: 30px;
+    }
 }
